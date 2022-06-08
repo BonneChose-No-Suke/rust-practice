@@ -41,7 +41,7 @@ fn main() {
         let temperature_input: f64 = temperature_input as f64;
         let result = convert_to_c(temperature_input);
         println!("{}°F is {}°C in celsius!", temperature_input, result);
-    } else {
+    } else if selected_conversion == conversion_type.1 {
         let temperature_input: f64 = temperature_input as f64;
         let result = convert_to_f(temperature_input);
         println!("{}°C is {}°F in fahrenheit!", temperature_input, result);
